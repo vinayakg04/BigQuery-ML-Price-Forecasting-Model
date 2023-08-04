@@ -1,0 +1,8 @@
+For linear regression models you want to use a loss metric like Root Mean Square Error (RMSE). 
+We want to keep training and improving the model until it has the lowest RMSE.
+Knowing whether or not this loss metric is acceptable to productionalize our model is entirely dependent on your benchmark criteria, which is set before model training begins.
+Benchmarking is establishing a minimum level of model performance and accuracy that is acceptable.
+
+We have gotten the RMSE down to: +-$$5.12 which is significantly better than +-$$9.47 for our first model.
+
+Since RMSE defines the standard deviation of prediction errors, we see that the retrained linear regression made our model a lot more accurate.
